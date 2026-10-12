@@ -133,7 +133,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:7
 .ptrow.head div:last-child{color:#fff}
 .table-scroll{overflow-x:auto}
 
-.areas{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.areas{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
 .areas a{background:#F2EFFA;padding:12px;border-radius:10px;color:var(--ink);text-decoration:none;font-weight:600;font-size:13px;text-align:center}
 .areas a:hover{background:#E7E0F5}
 
