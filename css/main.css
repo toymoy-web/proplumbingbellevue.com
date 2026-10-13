@@ -266,3 +266,7 @@ main h2 + p,main h3 + p{margin-top:0}
 }
 .hero.has-hero .strow b{color:#CBBFF5}
 .hero.has-hero .statpanel .statpanel-label{opacity:.85}
+
+/* footer disclaimer: single full-width inline line instead of a narrow grid cell */
+footer .footer-legal{grid-column:1 / -1;display:block;max-width:none;width:100%;margin:0;padding:12px 0 14px;border-top:1px solid var(--line);font-size:12px;line-height:1.5;color:var(--gray)}
+footer .footer-legal p{margin:0;font-size:12px;line-height:1.5}
