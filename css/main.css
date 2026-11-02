@@ -270,3 +270,10 @@ main h2 + p,main h3 + p{margin-top:0}
 /* footer disclaimer: single full-width inline line instead of a narrow grid cell */
 footer .footer-legal{grid-column:1 / -1;display:block;max-width:none;width:100%;margin:0;padding:12px 0 14px;border-top:1px solid var(--line);font-size:12px;line-height:1.5;color:var(--gray)}
 footer .footer-legal p{margin:0;font-size:12px;line-height:1.5}
+
+/* footer social links */
+.footer-social{margin-top:14px}
+.footer-social .fs-label{font-size:14px;font-weight:700;margin-bottom:8px;font-family:'Sora',Arial,sans-serif}
+.footer-social .fs-list{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0}
+.footer-social .fs-list a{display:inline-block;color:var(--lav-d);border:1px solid var(--line);background:#F2EFFA;border-radius:100px;padding:5px 13px;font-size:13px;font-weight:600;line-height:1.5;text-decoration:none}
+.footer-social .fs-list a:hover{background:var(--lav-d);color:#fff}
